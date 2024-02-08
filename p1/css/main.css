@@ -1,8 +1,26 @@
 body {
-	background-color: aliceblue;
+	background-color: azure;
 	margin: 100px;
 	font-family: helvetica;
 }
+h1 {
+	text-align: center;
+	font-size: 100px;
+	margin-top: 300px;
+}
+h2 {
+	text-align: center;
+	font-size: 50px;
+}
 a {
+	text-decoration: none;
+}
+a:link {
 	color: skyblue;
+}
+a:visited {
+	color: tomato;
+}
+a:hover {
+	color: lightskyblue;
 }

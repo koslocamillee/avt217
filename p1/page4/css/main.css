@@ -1,5 +1,5 @@
 body {
-	background-color: azure;
+	background-color: aliceblue;
 	margin: 100px;
 	font-family: helvetica;
 }
@@ -7,6 +7,5 @@ a {
 	color: skyblue;
 }
 p {
-	font-size: 16px;
-	font-weight: 20px;
+	font-size: 25px;
 }
