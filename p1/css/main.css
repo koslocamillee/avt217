@@ -1,7 +1,10 @@
 body {
-	background-color: azure;
+	background-color: aliceblue;
 	margin: 100px;
-	font-family: helvetica;
+	font-family: "neue-haas-grotesk-display", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	color: slategrey;
 }
 h1 {
 	text-align: center;
@@ -19,7 +22,7 @@ a:link {
 	color: skyblue;
 }
 a:visited {
-	color: tomato;
+	color: cornflowerblue;
 }
 a:hover {
 	color: lightskyblue;
