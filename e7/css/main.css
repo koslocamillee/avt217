@@ -27,4 +27,20 @@ p, ul, li {
 	font-family: "raleway", sans-serif;
 	font-weight: 400;
 	font-style: normal;
+	font-size: 16px;
+}
+
+.size {
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+
+.bold {
+	font-family: raleway, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.color-word {
+	color: yellow;
 }
