@@ -27,3 +27,6 @@ a:visited {
 a:hover {
 	color: lightskyblue;
 }
+p {
+	font-size: 16px;
+}
