@@ -1,0 +1,223 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0px;
+}
+main {
+	width: 100vw;
+	overflow: hidden;
+}
+/*layout 1*/
+#container-1 {
+	width: 180vw;
+	margin-left: -40vw;
+}
+#p1 {
+	background-color: lightpink;
+	}
+.p1-1 {
+	width: 100px;
+	height: 100px;
+	background-color: rgba(0, 0, 0, 1.0);
+	float: left;
+	margin: 20px;
+	filter: drop-shadow(0.8rem 1.4rem 0.5rem rgba(0, 0, 0, 0.6));
+	transform: skew(35deg);
+	border-radius: 25%;
+}
+.p1-2 {
+	width: 100px;
+	height: 100px;
+	background-color: rgba(255, 255, 255, 1.0);
+	float: left;
+	margin: 10px;
+	border-radius: 25%;
+	transform: skew(35deg);
+}
+.p1-3 {
+	width: 50px;
+	height: 100px;
+	background-color: rgba(0, 0, 0, 1.0);
+	float: left;
+	margin: 20px;
+	transform: rotate(45deg);
+	filter: drop-shadow(0.8rem 1.4rem 0.5rem rgba(0, 0, 0, 0.6));
+	border-radius: 25%;
+}
+/* layout 2 */
+#container-2 {
+	width: 130vw;
+	margin-left: -15vw;
+}
+#p2 {
+	background-color: blueviolet;
+}
+.p2-1 {
+	width: 150px;
+	height: 50px;
+	background-color: rgba(0, 0, 0, 0.8);
+	float: left;
+/*	margin: 20px;*/
+/*	transform: scale(0.5);*/
+	transform: rotate(45deg);
+}
+.p2-2 {
+	width: 250px;
+	height: 50px;
+	background-color: rgba(0, 0, 0, 1.0);
+	float: left;
+/*	margin: 20px;*/
+/*	transform: scale(0.5);*/
+}
+.p2-3 {
+	width: 150px;
+	height: 50px;
+	border: 10px solid black;
+	float: left;
+/*	margin: 20px;*/
+/*	transform: scale(0.5);*/
+}
+.p2-4 {
+	width: 150px;
+	height: 50px;
+	border: 10px solid white;
+	float: left;
+/*	margin: 20px;*/
+/*	transform: scale(0.5);*/
+	transform: rotate(45deg);
+}
+/*layout 3*/
+#container-3 {
+	width: 150vw;
+	margin-left: -25vw;
+}
+#p3 {
+	background-color: mediumspringgreen;
+}
+.p3-1 {
+	width: 150px;
+	height: 150px;
+	float: left;
+	background-color: rgba(0, 0, 0, 1.0);
+	filter: blur(5px);
+	transform: skew(-10deg);
+}
+.p3-2 {
+	width: 100px;
+	height: 100px;
+	float: left;
+	background-color: paleturquoise;
+	filter: drop-shadow(5px 5px);
+	transform: rotate(45deg);
+}
+.p3-3 {
+	width: 75px;
+	height: 200px;
+	background-color: rgba(0, 0, 0, 0.5);
+	float: left;
+	margin: 20px;
+	border-radius: 25%;
+	border: 10px solid whitesmoke;
+	filter: blur(5px);
+	transform: rotate(45deg);
+	transform: skew(50deg);
+}
+/*layout 4*/
+#container-4 {
+	width: 140vw;
+	margin-left: -20vw;
+}
+#p4 {
+	background-color: skyblue;
+}
+.p4-1 {
+	width: 50px;
+	height: 250px;
+	float: left;
+	background-color: rgba(0, 0, 0, 1.0);
+	margin: 20px;
+	transform: skew(45deg);
+}
+.p4-2 {
+	width: 50px;
+	height: 250px;
+	float: left;
+	background-color: rgba(0, 0, 0, 1.0);
+	filter: drop-shadow(0.8rem 1.4rem 0.5rem rgba(0, 0, 0, 0.6));
+/*	margin: 20px;*/
+}
+.p4-3 {
+	width: 50px;
+	height: 250px;
+	float: left;
+	background-color: rgba(0, 0, 0, 1.0);
+	margin: 20px;
+	transform: skew(45deg);
+}
+.p4-4 {
+	width: 100px;
+	height: 100px;
+	background-color: rgba(255, 0, 0, 1.0);
+	float: left;
+	margin: 20px;
+	filter: drop-shadow(0.8rem 1.4rem 0.5rem rgba(0, 0, 0, 0.6));
+	transform: skew(35deg);
+	border-radius: 50%;
+}
+/*layout 5*/
+#container-5 {
+	width: 140vw;
+	margin-left: -20vw;
+}
+#p5 {
+	background-color: antiquewhite;
+}
+.p5-1 {
+	width: 50px;
+	height: 200px;
+	float: left;
+	background-color: rgba(0, 0, 0, 1.0);
+	margin: 20px;
+	transform: skew(180deg);
+/*	border-radius: 50%;*/
+/*	filter: drop-shadow(0.8rem 1.4rem 0.5rem rgba(0, 0, 0, 0.6));*/
+
+}
+.p5-2 {
+	width: 50px;
+	height: 250px;
+	float: left;
+	background-color: whitesmoke;
+/*	filter: drop-shadow(0.8rem 1.4rem 0.5rem rgba(0, 0, 0, 0.6));*/
+	border-radius: 50%;
+}
+.p5-3 {
+	width: 50px;
+	height: 250px;
+	float: left;
+	background-color: rgba(0, 0, 0, 1.0);
+	margin: 20px;
+	transform: skew(-75deg);
+	border-radius: 50%;
+}
+.p5-4 {
+	width: 75px;
+	height: 200px;
+	background-color: antiquewhite;
+	float: left;
+	margin: 20px;
+	filter: drop-shadow(0.8rem 1.4rem 0.5rem rgba(0, 0, 0, 0.6));
+	transform: skew(35deg);
+/*	border-radius: 50%;*/
+}
+.p5-5 {
+	width: 75px;
+	height: 100px;
+	background-color: whitesmoke;
+	float: left;
+	margin: 20px;
+	filter: drop-shadow(0.8rem 1.4rem 0.5rem rgba(0, 0, 0, 0.6));
+	transform: skew(35deg);
+	border-radius: 50%;
+}

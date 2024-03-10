@@ -1,0 +1,22 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+}
+div {
+	width: 400px;
+	height: 400px;
+	background-color: skyblue;
+	margin: 5px;
+	float: left;
+	padding: 25px;
+	border: 10px solid black;
+}
+#one, #two, #three {
+	float: left;
+}
+#four {
+	float: left;
+	background-color: deepskyblue;
+}
