@@ -93,20 +93,24 @@ footer {
 }
 /*******tennis court*******/
 #tenniscontainer {
-	width: 1315px;
+	width: 1320px;
+	height: 1500px;
 	display: flow-root;
 	margin: 100px auto;
+/*	background-color: lightyellow;*/
 }
 /*top half*/
 .topcontainer {
 	width: 100%;
 /*	height: 500px;*/
 	display: flow-root;
+/*	background-color: black;*/
 }
-/*.quad1 {
-	width: 50%;
-	height: 50%;
-}*/
+.secondcontainer {
+	width: 100%;
+	display: flow-root;
+/*	background-color: blueviolet;*/
+}
 .longrect-1 {
 	width: 200px;
 	height: 300px;
@@ -135,7 +139,17 @@ footer {
 	float: left;
 	margin: 0 5px 5px 0;
 }
-/*bottom half*/
+/***bottom half***/
+.bottomcontainer {
+	width: 100%;
+	display: flow-root;
+/*	background-color: greenyellow;*/
+}
+.fourthcontainer {
+	width: 100%;
+	display: flow-root;
+/*	background-color: darkgrey;*/
+}
 .bottomlongrect-2 {
 	width: 200px;
 	height: 455px;
@@ -149,4 +163,144 @@ footer {
 	background-color: tomato;
 	float: left;
 	margin: 0 5px 0px 0;
+}
+/*********California Case*********/
+#wholecontainer {
+	width: 1430px;
+/*	width: 100%;*/
+	height: 770px;
+	background-color: blueviolet;
+	margin: 100px auto;
+}
+/*.wholecontainer {
+	width: 100%;
+	height: 100px;
+	display: flow-root;
+	background-color: blueviolet;
+}*/
+.thirdcontainter {
+	width: 445px;
+	height: 700px;
+	float: left;
+	background-color: white;
+	margin: 15px;
+	/*border-style: solid;
+	border-color: white;
+	border-width: 5px;*/
+}
+.smallrectangle {
+	width: 50px;
+	height: 100px;
+	background-color: blueviolet;
+	float: left;
+	margin: 5px;
+}
+.smallrectangle-m {
+	width: 50px;
+	height: 100px;
+	background-color: blueviolet;
+	float: left;
+	margin: 5px 5px 5px 0;
+}
+.smallrectangle-m-notstarterrow {
+	width: 50px;
+	height: 100px;
+	background-color: blueviolet;
+	float: left;
+	margin: 0 5px 5px 0;
+}
+.biggestrect {
+	width: 105px;
+	height: 105px;
+	float: left;
+	background-color: blueviolet;
+	margin-top: 5px;
+}
+.rows {
+	width: 100%;
+	height: 105px;
+	display: flow-root;
+	background-color: white;
+}
+.smallrectangle-r2 {
+	width: 50px;
+	height: 100px;
+	background-color: blueviolet;
+	float: left;
+	margin: 0 5px;
+}
+.medrectangle {
+	width: 50px;
+	height: 105px;
+	background-color: blueviolet;
+	float: left;
+	margin: 0 5px 0 0;
+}
+.largerect {
+	width: 105px;
+	height: 105px;
+	background-color: blueviolet;
+	float: left;
+	margin: 0 5px 0 0;
+}
+.midbigrect {
+	width: 105px;
+	height: 105px;
+	float: left;
+	background-color: blueviolet;
+}
+.medrectangle-2 {
+	width: 50px;
+	height: 100px;
+	background-color: blueviolet;
+	float: left;
+	margin: 0 5px 0 0;
+}
+.largerect-2 {
+	width: 105px;
+	height: 100px;
+	background-color: blueviolet;
+	float: left;
+	margin: 0 5px 0 0;
+}
+.biggestrect-3 {
+	width: 105px;
+	height: 100px;
+	background-color: blueviolet;
+	float: left;
+	margin: 0 5px 0 0;
+}
+.secondlargerect{
+	width: 105px;
+	height: 105px;
+	background-color: blueviolet;
+	float: left;
+	margin: 0 5px 0;
+}
+.secondlargerect-m {
+	width: 105px;
+	height: 105px;
+	background-color: blueviolet;
+	float: left;
+	margin: 0 5px 0 0
+}
+.starterrow {
+	width: 100%;
+	height: 110px;
+	display: flow-root;
+	background-color: white;
+}
+.startrowlargerect-2 {
+	width: 105px;
+	height: 100px;
+	background-color: blueviolet;
+	float: left;
+	margin: 0 5px
+}
+.startofrowsmallrectangle-notstarterrow {
+	width: 50px;
+	height: 100px;
+	background-color: blueviolet;
+	float: left;
+	margin: 0 5px 5px 5px;
 }
