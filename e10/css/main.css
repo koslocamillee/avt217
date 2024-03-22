@@ -1,0 +1,152 @@
+body {
+	margin: 0;
+}
+.red {
+	background-color: tomato;
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+.black {
+	background-color: #222222;
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+.board {
+	width: 800px;
+	margin: 100px auto;
+}
+/*second layout*/
+#container {
+	width: 950px;
+	display: flow-root;
+	margin: 100px auto;
+/*	background-color: black;*/
+}
+header {
+	height: 150px;
+	width: 100%;
+	margin-bottom: 25px;
+	background-color: tomato;
+}
+nav {
+	height: 50px;
+	width: 100%;
+	margin-bottom: 25px;
+	background-color: tomato;
+}
+.col {
+	width: 300px;
+	height: 800px;
+	float: left;
+	background-color: tomato;
+}
+.center {
+	width: 300px;
+	height: 800px;
+	background-color: tomato;
+	float: left;
+	margin: 0 25px;
+}
+footer {
+	margin-top: 25px;
+	height: 150px;
+	width: 100%;
+	background-color: tomato;
+	float: left;
+}
+/*******blog layout*******/
+#container2 {
+	width: 1025px;
+	display: flow-root;
+	margin: 100px auto;
+}
+.header2 {
+	width: 100%;
+	height: 200px;
+}
+.pic {
+	width: 750px;
+	height: 500px;
+	margin-right: 25px;
+	margin-top: 100px;
+	float: left;
+	background-color: tomato;
+}
+.minipic {
+	width: 250px;
+	height: 300px;
+	float: left;
+	background-color: tomato;
+	margin-top: 100px;
+}
+.container3 {
+	width: 750px;
+	display: flow-root;
+}
+.subtext {
+	width: 750px;
+	height: 50px;
+	background-color: tomato;
+	margin-top: 25px;
+}
+/*******tennis court*******/
+#tenniscontainer {
+	width: 1315px;
+	display: flow-root;
+	margin: 100px auto;
+}
+/*top half*/
+.topcontainer {
+	width: 100%;
+/*	height: 500px;*/
+	display: flow-root;
+}
+/*.quad1 {
+	width: 50%;
+	height: 50%;
+}*/
+.longrect-1 {
+	width: 200px;
+	height: 300px;
+	background-color: tomato;
+	float: left;
+}
+.horzrect {
+	width: 905px;
+	height: 300px;
+	float: left;
+	background-color: tomato;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.tennissquare {
+	width: 450px;
+	height: 450px;
+	background-color: tomato;
+	float: left;
+	margin: 5px 5px 5px 0;
+}
+.longrect-2 {
+	width: 200px;
+	height: 455px;
+	background-color: tomato;
+	float: left;
+	margin: 0 5px 5px 0;
+}
+/*bottom half*/
+.bottomlongrect-2 {
+	width: 200px;
+	height: 455px;
+	background-color: tomato;
+	float: left;
+	margin: 0 5px 0 0;
+}
+.bottomtennissquare-3 {
+	width: 450px;
+	height: 450px;
+	background-color: tomato;
+	float: left;
+	margin: 0 5px 0px 0;
+}
