@@ -1,0 +1,37 @@
+body {
+	height: 9000px;
+}
+.static {
+	width: 200px;
+	height: 200px;
+	background-color: #39fe24;
+	margin: 10px;
+}
+.relative {
+	width: 200px;
+	height: 200px;
+	background-color: #d9a2e7;
+	margin: 10px;
+	position: relative;
+	top: 50px;
+	left: 50px;
+}
+.absolute {
+	width: 200px;
+	height: 200px;
+	background-color: #543876;
+	margin: 10px;
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	z-index: -10;
+}
+.fixed {
+	width: 200px;
+	height: 200px;
+	background-color: #afedcb;
+	margin: 10px;
+	position: fixed;
+	top: 50px;
+	left: 50px;
+}

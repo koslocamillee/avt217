@@ -1,0 +1,200 @@
+* {
+	box-sizing: border-box;
+}
+.microwave {
+	width: 550px;
+	height: 300px;
+	background-color: slategrey;
+	position: relative;
+	margin: 200px auto;
+}
+.window {
+	width: 300px;
+	height: 200px;
+	background-color: skyblue;
+	position: absolute;
+	top: 50px;
+	left: 50px;
+/*	float: left;*/
+}
+.handle {
+	width: 30px;
+	height: 200px;
+	background-color: lightgrey;
+	position: absolute;
+	top: 50px;
+	left: 365px;
+}
+.time {
+	width: 120px;
+	height: 50px;
+	background-color: black;
+	position: absolute;
+	top: 50px;
+	left: 410px;
+}
+.keypad {
+	width: 120px;
+	height: 150px;
+/*	background-color: darkred;*/
+	position: absolute;
+	bottom: 50px;
+	left: 410px;
+}
+.numbers-1 {
+	width: 40px;
+	height: 40px;
+	border: 5px solid whitesmoke;
+	position: absolute;
+/*	top: 40px;*/
+/*	left: 40px;*/
+}
+.numbers-1 {
+	width: 40px;
+	height: 40px;
+	border: 5px solid whitesmoke;
+	position: absolute;
+/*	top: 40px;*/
+/*	left: 40px;*/
+}
+.numbers-1 {
+	width: 40px;
+	height: 40px;
+	border: 5px solid whitesmoke;
+	position: absolute;
+/*	top: 40px;*/
+/*	left: 40px;*/
+}
+.numbers-1 {
+	width: 40px;
+	height: 40px;
+	border: 5px solid whitesmoke;
+	position: absolute;
+/*	top: 40px;*/
+/*	left: 40px;*/
+}
+.numbers-2 {
+	width: 40px;
+	height: 40px;
+	border: 5px solid whitesmoke;
+	position: absolute;
+/*	top: 40px;	*/
+	left: 40px;
+}
+.numbers-3 {
+	width: 40px;
+	height: 40px;
+	border: 5px solid whitesmoke;
+	position: absolute;
+/*	top: 40px;	*/
+	left: 80px;
+}
+.numbers-4 {
+	width: 40px;
+	height: 40px;
+	border: 5px solid whitesmoke;
+	position: absolute;
+	top: 40px;	
+/*	left: 80px;*/
+}
+.numbers-5 {
+	width: 40px;
+	height: 40px;
+	border: 5px solid whitesmoke;
+	position: absolute;
+	top: 40px;	
+	left: 40px;
+}
+.numbers-6 {
+	width: 40px;
+	height: 40px;
+	border: 5px solid whitesmoke;
+	position: absolute;
+	top: 40px;	
+	left: 80px;
+}
+.numbers-7 {
+	width: 40px;
+	height: 40px;
+	border: 5px solid whitesmoke;
+	position: absolute;
+	top: 80px;	
+/*	left: 80px;*/
+}
+.numbers-8 {
+	width: 40px;
+	height: 40px;
+	border: 5px solid whitesmoke;
+	position: absolute;
+	top: 80px;	
+	left: 40px;
+}
+.numbers-9 {
+	width: 40px;
+	height: 40px;
+	border: 5px solid whitesmoke;
+	position: absolute;
+	top: 80px;	
+	left: 80px;
+}
+.ready {
+	font-size: 20px;
+	font-family: sans-serif;
+	color: lawngreen;
+	position: absolute;
+	top: 13px;
+	left: 25px;
+}
+.plate {
+	width: 150px;
+	height: 10px;
+	background-color: whitesmoke;
+	position: absolute;
+	bottom: 25px;	
+	left: 80px;
+	border-radius: 5px;
+}
+.chicken {
+	width: 100px;
+	height: 75px;
+	border-radius: 50%;
+	background-color: saddlebrown;
+	position: absolute;
+	bottom: 35px;	
+	left: 80px;
+}
+.bone {
+	width: 65px;
+	height: 15px;
+	background-color: whitesmoke;
+	position: absolute;
+	bottom: 60px;	
+	left: 150px;
+}
+.bone-1 {
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background-color: whitesmoke;
+	position: absolute;
+	bottom: 65px;	
+	left: 200px;
+}
+.bone-2 {
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background-color: whitesmoke;
+	position: absolute;
+	bottom: 45px;	
+	left: 200px;
+}
+.bite {
+	width: 75px;
+	height: 75px;
+	border-radius: 50%;
+	background-color: skyblue;
+	position: absolute;
+	top: 35px;	
+	left: 80px;
+}
