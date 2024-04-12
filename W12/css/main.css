@@ -1,0 +1,19 @@
+body {
+	margin: 0;
+}
+div {
+	width: 100px;
+	height: 100px;
+	background: tomato;
+	position: absolute;
+	animation: 3s linear move infinite;
+}
+
+@keyframes move {
+	0% {
+		top: 0;
+	}
+	100% {
+		bottom: 500px;
+	}
+}
